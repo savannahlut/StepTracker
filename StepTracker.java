@@ -1,8 +1,8 @@
 public class StepTracker{
-    final int minSteps;
-    int totalSteps;
-    int activeDays;
-    int totalDays;
+    private final int minSteps;
+    private int totalSteps;
+    private int activeDays;
+    private int totalDays;
 
     public StepTracker(int minSteps){
         this.minSteps = minSteps;

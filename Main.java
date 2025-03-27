@@ -13,5 +13,9 @@ public class Main {
         System.out.println(tr.activeDays());
         System.out.println(tr.averageSteps());
 
+        tr.addDailySteps(23000);
+        tr.addDailySteps(1111);
+        System.out.println(tr.activeDays());
+        System.out.println(tr.averageSteps());
     }
 }
